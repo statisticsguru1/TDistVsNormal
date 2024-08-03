@@ -18,7 +18,7 @@ To run the Shiny app locally, ensure you have R and the necessary packages insta
 
 ```r
 if (!require("pacman")) install.packages("pacman")
-pacman::p_load("Rgraphviz", "shiny", "tidyverse", "arules", "arulesViz", "colorspace", "visNetwork", "plotly", "igraph", "shinythemes", "readxl", "DT")
+pacman::p_load("shiny", "tidyverse", "plotly", "bslib", "bsicons")
 runGitHub(
   'TDistVsNormal',
   username = 'statisticsguru1',
